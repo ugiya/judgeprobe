@@ -135,4 +135,5 @@ testsuite/
   no real reference passages. The Hebrew payloads are language-coverage, not a product artifact.
 - **Honesty in the README.** Every headline number carries its N; "blocked in our harness," not
   "solves prompt injection"; defense is a prompt-tier risk-reduction, not a hard control.
-- **No exploit recipe framing.** This is a *defensive test tool*: it ships the defense and proves it.
+- **No exploit recipe framing.** This is a *defensive test tool*: it ships a candidate authority-boundary
+  defense and tests it under the same harness — risk reduction in the tested cells, not a hard control.

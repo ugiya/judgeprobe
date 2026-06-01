@@ -24,7 +24,8 @@ role-play, and fake system markup are all refused even on stock.
 
 ## B. It is bidirectional, and the clause blocks both directions (suites `bound_max` + `bound_min`)
 
-gpt-5.1, Hebrew, **N=20 certification** (load-bearing cells):
+gpt-5.1, Hebrew, **N=20 certification** (load-bearing cells). The stock column reuses the earlier
+N=5 attack-validity screen for some cells (shown as `x/5`); the hardened column is the full N=20 re-run:
 
 | direction | payload | stock | hardened |
 |---|---|---|---|

@@ -1,0 +1,26 @@
+[project]
+name = "judgeprobe"
+version = "0.1.0"
+description = "A small garak for LLM-as-a-judge content scorers: authority-injection probes + defense."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = [
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+openai = ["openai>=1.0"]
+anthropic = ["anthropic>=0.39"]
+gemini = ["google-genai>=0.3"]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+judgeprobe = "judgeprobe.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["judgeprobe"]

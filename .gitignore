@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+.venv/
+venv/
+
+# codex/omx session artifacts (not part of the repo)
+.omx/
+
+# run outputs are reproducible; keep .gitkeep + SAMPLE_RESULTS.md only
+results/*.csv
+results/*.meta.json
+
+# run outputs in subdirs too (keep SAMPLE_RESULTS.md only)
+results/**/*.csv
+results/**/*.meta.json

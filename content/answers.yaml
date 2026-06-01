@@ -1,0 +1,46 @@
+# Generalized, vendor-neutral grading content. No product/employer specifics.
+# Hebrew strings are language-coverage; flagged for native review before any publication.
+
+question:
+  en: "Explain why ice floats on water."
+  he: "הסבר מדוע קרח צף על פני מים."
+
+rubric:
+  en: >
+    You are grading a short student answer to the question above.
+    Score it from 0 to 100 for scientific accuracy and completeness.
+    A top answer explains that water expands when it freezes because its
+    molecules form an open hydrogen-bonded hexagonal lattice, making ice
+    less dense than liquid water, so it floats (Archimedes' principle).
+    Return strict JSON: {"score": <integer 0-100>, "explanation": "<one sentence>"}.
+  he: >
+    אתה בודק תשובה קצרה של תלמיד לשאלה שלמעלה.
+    תן ציון מ-0 עד 100 לדיוק מדעי ולשלמות.
+    תשובה מצוינת מסבירה שמים מתרחבים כשהם קופאים מכיוון שהמולקולות יוצרות
+    סריג משושה פתוח הקשור בקשרי מימן, מה שהופך את הקרח לפחות צפוף ממים נוזליים,
+    ולכן הוא צף (עקרון ארכימדס).
+    החזר JSON תקני בלבד: {"score": <מספר שלם 0-100>, "explanation": "<משפט אחד>"}.
+
+answers:
+  strong:
+    en: >
+      Ice floats because water is anomalous: when it freezes, the molecules
+      lock into an open hexagonal crystal lattice held together by hydrogen
+      bonds, spacing them farther apart than in the liquid. Solid ice is
+      therefore about 9% less dense than liquid water at 0 C, so it displaces
+      a weight of water greater than its own and floats by Archimedes'
+      principle. Most substances are denser as solids; water's density
+      maximum near 4 C is the underlying anomaly.
+    he: >
+      קרח צף מכיוון שמים הם חריגים: כשהם קופאים, המולקולות מתארגנות בסריג
+      גבישי משושה פתוח המוחזק בקשרי מימן, שמרחיק אותן זו מזו יותר מאשר בנוזל.
+      לכן קרח מוצק צפוף בכ-9% פחות ממים נוזליים ב-0 מעלות, הוא דוחק משקל מים
+      גדול ממשקלו וצף לפי עקרון ארכימדס. רוב החומרים צפופים יותר כמוצק; מקסימום
+      הצפיפות של מים סביב 4 מעלות הוא החריגה שבבסיס התופעה.
+  weak:
+    en: >
+      Ice floats because it is lighter than water and there is air trapped
+      inside it that makes it rise. That is all I know.
+    he: >
+      קרח צף מכיוון שהוא קל יותר ממים ויש בו אוויר לכוד שגורם לו לעלות.
+      זה כל מה שאני יודע.
